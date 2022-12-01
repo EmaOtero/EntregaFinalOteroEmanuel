@@ -1,0 +1,62 @@
+
+//tablet//
+
+@media (max-width:991px) {
+    .container-contacto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-link {
+        color: rgb(0, 139, 204);
+        margin-left: 1rem;
+    }
+
+    .item1 {
+        margin-top: 1rem;
+    }
+
+    .carousel {
+        max-width: 100%;
+        margin-top: 0%;
+    }
+
+    .mapa {
+        margin-top: 2rem;
+        margin-left: 0rem;
+    }
+
+    .comtainer-soluciones {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feature {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+        align-items: center;
+}
+
+
+
+//movil//
+
+@media (max-width:593px) {
+    .footerContainer {
+        margin-top: 1rem;
+        align-items: flex-start;
+    }
+
+    .carousel {
+        scale: 110%;
+        max-width: 100%;
+        margin-top: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+}

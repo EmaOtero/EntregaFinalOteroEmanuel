@@ -1,0 +1,55 @@
+
+.bajada {
+   margin-left: 2%;
+}
+
+
+.navbar-brand {
+   margin-left: 2%;
+}
+
+
+.gradiente-fotos {
+   background: linear-gradient(0deg, #000 0%, rgba(5, 184, 255, 0) 45%, rgba(19, 176, 255, 0) 65%);
+}
+
+.titulo-soluciones {
+   text-align: left;
+}
+
+.container-soluciones {
+   margin-top: 10rem;
+}
+
+.icon-link {
+   font-size: 1rem;
+   text-align: center;
+   margin-left: 1rem;
+
+   &:hover {
+      text-decoration: underline;
+   }
+}
+
+
+.carousel-control-next-icon {
+   background-image: url(../imgs/SVGs/adelante.svg) !important;
+   height: 4rem !important;
+   width: 4rem !important;
+}
+
+.carousel-control-prev-icon {
+   background-image: url(../imgs/SVGs/previo.svg) !important;
+   height: 4rem !important;
+   width: 4rem !important;
+}
+
+.titulo-slide {
+   color: rgb(255, 255, 255);
+   text-shadow: 2px 2px 4px #3a3a3aae;
+}
+
+.parrafo-slide {
+   color: rgb(255, 255, 255);
+   text-shadow: 2px 2px 4px #3a3a3aae;
+}

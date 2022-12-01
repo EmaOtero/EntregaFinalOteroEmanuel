@@ -1,0 +1,74 @@
+/*HOVER PORTFOLIO----------------------------------------------------------------------------------------------------------------------------*/
+
+@mixin hovercard {
+    cursor: pointer;
+    background-color: rgb(48, 162, 255);
+    transform: scale(1.010);
+    }
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.card {
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.card-body {
+    background: linear-gradient(0deg, rgba(0, 157, 255, 0.844) 0%, rgba(95, 215, 255, 0) 80%);
+    opacity: 0;
+    transition: opacity  0.7s ease 0s;
+}
+
+.card:hover {
+    @include hovercard
+}
+
+.card-body:hover {
+    opacity: 1;
+}
+
+.logos-card {
+    max-width: 18px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.titulo-card {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.titulo-card a {
+    text-decoration: none;
+}
+
+.subt-card {
+    color: white;
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+
+.stats-card {
+    color: white;
+    font-weight: normal;
+}
+
+.tercera-fila {
+    margin-top: 20px;
+}
+
+h3 {
+    text-align: center;
+}

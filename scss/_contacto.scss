@@ -1,0 +1,40 @@
+.formulario {
+    margin-left: 2%;
+}
+
+.container-form {
+    width: 400px;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.button {
+    color: cyan;
+}
+
+input:focus {
+    background: linear-gradient(to left, rgba(0, 157, 255, 0.641) 1%, rgba(95, 215, 255, 0) 80%);
+} 
+
+textarea:focus {
+    background: linear-gradient(to left, rgba(0, 157, 255, 0.641) 1%, rgba(95, 215, 255, 0) 80%);
+} 
